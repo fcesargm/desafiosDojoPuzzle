@@ -9,10 +9,9 @@ def fizzBuzz(n):
     else:
         return n
 
-numero = 1
-var = fizzBuzz(numero)
-for i in range(100):
-    var = fizzBuzz(numero)
+
+for i in range(1, 101):
+    var = fizzBuzz(i)
     print(var)
-    numero += 1
+
 
